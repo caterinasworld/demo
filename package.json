@@ -1,0 +1,18 @@
+{
+  "name": "VOIS.AI",
+  "version": "1.0.0",
+  "description": "A web app to transcribe and examine the way a person talks.",
+  "main": "scripts.js",
+  "scripts": {
+    "start": "browser-sync start --directory --server --files \"*.css, *.html, *.js\""
+  },
+  "author": "Caterina Paun",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.26.3"
+  },
+  "dependencies": {
+    "add-license": "0.0.1",
+    "count-words-occurrence": "^1.0.0"
+  }
+}
