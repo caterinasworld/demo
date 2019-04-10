@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Caterina Paun">
+    <title>Speech Demo DEU</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="jumbotron">
+      <div class="wrapper">
+        <button class="btn btn-lg btn-default" id="startButton" onclick="startSpeechRecognition(event)">Aufnahme starten</button>
+        <button class="btn btn-lg btn-inverse" id="clearButton" onclick="stopSpeechRecognition(event)">Aufnahme beenden</button>
+        <button class="btn btn-lg btn-inverse" id="clearButton" onclick="clearSpeech(event)">Text <br>löschen</button>
+        <button class="btn btn-lg btn-inverse" id="clearButton" onclick="replaySpeech(event)">Text wiedergeben</button>
+      </div>
+      <div class="wrapper">
+        <div class="speecharea" id="speecharea" contenteditable></div>
+      </div>
+    </div>
+  </body>
+  <script src="js/appDEU.js"></script>
+</html>
